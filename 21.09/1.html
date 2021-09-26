@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru"> 
+<head>
+<meta charset="utf-8">
+<title>Ячяейки</title>
+<style>
+.Fcube {
+background: #88c6ef;
+height: 600px;
+width: 600px;
+display: grid;
+gap: 20px;
+grid-template: repeat(2, auto) / repeat(3,auto);
+}
+.cube {
+border: 2px dashed #000;
+}
+.first {
+background: red;
+grid-area: 3 / 1 / 4 / 2;
+}
+.second {
+background: green;
+grid-area:
+}
+.third {
+background: yellow;
+grid-area:
+}
+.fourth {
+background: purple;
+grid-area:
+}
+.fifth {
+background: blue;
+grid-area: 1/1/2/3;
+}
+</style>
+</head>
+
+
+
+<body>
+<div class="Fcube">
+<div class="cube first">1</div>
+<div class="cube second">2</div>
+<div class="cube third">3</div>
+<div class="cube fourth">4</div>
+<div class="cube fifth">5</div>
+</div>
+
+</body>
+
+</html>
